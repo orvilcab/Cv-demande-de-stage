@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
+    <title>Demande de stage</title>
+</head>
+
+<body>
+    <div class="contener">
+        <header></header>
+        <main></main>
+        <footer>
+            <fieldset class="one">
+                <legend>Laisser vos coordonées</legend>
+                <form action="cabrion_orvil.php" method="post">
+                    <TABLE>
+                        <TR>
+                            <TD>Civilité</TD>
+                            <TD>
+                                <SELECT NAME="Civilite" ID="Civilite">
+                                    <OPTION Value="" Selected></OPTION>
+                                    <OPTION Value="Madame">Madame</OPTION>
+                                    <OPTION Value="Monsieur">Monsieur</OPTION>
+                                    
+                                    
+                                </SELECT>
+                            </TD>
+                        </TR>
+                    </TABLE>
+                    <div>
+                        <label for="nom">Nom : </label><input type="text" name="nom">
+                        <label for="prenom">Prénom : </label><input type="text" name="prenom">
+                    </div>
+                    <br>
+                    <label for="tel">Téléphone : </label><input type="number" name="tel"><br>
+                    <label for="mail">E-mail : </label><input type="email" name="mail">
+                    <br>
+                    <input type="submit" name="send">
+
+            </fieldset>
+        </footer>
+    </div>
+
+</body>
+
+</html>
