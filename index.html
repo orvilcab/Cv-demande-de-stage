@@ -21,9 +21,10 @@
                         <TR>
                             <TD>Civilité</TD>
                             <TD>
-                                <SELECT NAME="Civilite" ID="Civilite">
+                                <SELECT NAME="civilite" ID="civilite">
                                     <OPTION Value="" Selected></OPTION>
                                     <OPTION Value="Madame">Madame</OPTION>
+                                    <OPTION Value="Madame">Mademoiselle</OPTION>
                                     <OPTION Value="Monsieur">Monsieur</OPTION>
                                     
                                     
@@ -36,7 +37,7 @@
                         <label for="prenom">Prénom : </label><input type="text" name="prenom">
                     </div>
                     <br>
-                    <label for="tel">Téléphone : </label><input type="number" name="tel"><br>
+                    <label for="tel">Téléphone : </label><input type="tel" name="tel" placeholder="Format: 06-34-56-78-90" pattern="[0-9]{2}-[0-9]{2}-[0-9]{2}-[0-9]{2}-[0-9]{2}"><br>
                     <label for="mail">E-mail : </label><input type="email" name="mail">
                     <br>
                     <input type="submit" name="send">
