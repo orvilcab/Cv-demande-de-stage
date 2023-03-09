@@ -41,7 +41,7 @@ aside {
 }
 
 section {
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
     height: 700px;
     float: right;
     width: 60%;
@@ -66,4 +66,7 @@ li {
 
 .bleu {
     color: #4472C4;
+}
+.forma{
+    text-align: center;
 }
