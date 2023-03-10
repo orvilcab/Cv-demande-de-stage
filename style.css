@@ -7,7 +7,7 @@ body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-i:hover {
+i,.material-symbols-outlined:hover {
     animation: amine-portait 4s infinite;
 }
 
@@ -63,10 +63,31 @@ li {
     margin-left: 42px;
     line-height: 3.5;
 }
+.deux{
+    font-size: 17px;
+    margin-top: 0;
+}
 
 .bleu {
     color: #4472C4;
 }
 .forma{
     text-align: center;
+}
+td{
+    padding-left: 0px;
+}
+.one{
+    border: none;
+    background-color: #F2F2F2;
+    line-height: 2;
+}
+[class*="col-"]{
+    width: 100%;
+}
+input{
+    display: flex;
+}
+td{
+    display: flex;
 }
